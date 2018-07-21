@@ -12,7 +12,7 @@
             extraPlugins: 'detail,media,mediabrowser',
             format_tags: 'p;h2;h3',
             language: 'de',
-            mediabrowserUrl: '/rte/browser/sample/',
+            mediabrowserUrl: '/rte/browser/',
             removeButtons: 'Cut,Copy,Paste,Anchor,Strike,Subscript,Superscript,Indent,Outdent',
             removeDialogTabs: 'link:advanced;link:target',
             plugins:

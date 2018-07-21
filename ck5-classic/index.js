@@ -7,7 +7,7 @@
         ClassicEditor
             .create(document.querySelector('#rte'), {
                 media: {
-                    browser: '/rte/browser/sample/'
+                    browser: '/rte/browser/'
                 }
             })
             .then(ed => {
