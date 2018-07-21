@@ -1,0 +1,28 @@
+version: "3.5"
+networks:
+  default:
+    external:
+      name: proxy
+services:
+  rte:
+    image: rte
+    build: .
+    container_name: rte
+    restart: unless-stopped
+    labels:
+      traefik.enable: "true"
+      traefik.port: "8080"
+      traefik.frontend.rule: "Host: rte.app.loc"
+    volumes:
+      - source: ../ck4
+        target: /app/ck4
+        type: bind
+      - source: ../ck5
+        target: /app/ck5
+        type: bind
+      - source: ../editor
+        target: /app/editor
+        type: bind
+      - source: .
+        target: /app/rte
+        type: bind

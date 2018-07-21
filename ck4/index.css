@@ -1,0 +1,103 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+body > * {
+    padding: 0.75rem 0;
+}
+
+/**
+ * Text
+ */
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+/**
+ * List
+ */
+ol,
+ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+/**
+ * Media
+ */
+figure {
+    margin-bottom: 1.5rem;
+}
+
+figcaption {
+    font-size: 0.875rem;
+}
+
+.media {
+    text-align: center;
+}
+
+.media.left {
+    float: left;
+    margin-right: 0.75rem;
+    text-align: left;
+}
+
+.media.right {
+    float: right;
+    margin-left: 0.75rem;
+    text-align: left;
+}
+
+/**
+ * Details
+ */
+summary h1,
+summary h2,
+summary h3,
+summary h4,
+summary h5,
+summary h6 {
+    display: inline-block;
+}
+
+/**
+ * Button
+ */
+[role=button],
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    line-height: 1.5rem;
+    padding: 0.75rem;
+    color: #000 !important;
+    background: #60abc6;
+    border: 0;
+}
+
+/**
+ * RTE
+ */
+.cke_contents {
+    height: 85vh !important;
+}
+
+.cke_combo::after {
+    border-right: 0 !important;
+}

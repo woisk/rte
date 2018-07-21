@@ -1,0 +1,13 @@
+#
+# Image
+#
+.git
+docker-compose.*
+Dockerfile
+.dockerignore
+Jenkinsfile
+
+#
+# DEV
+#
+.idea
