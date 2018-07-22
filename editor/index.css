@@ -45,7 +45,7 @@ ul {
 button {
     line-height: 1.5rem;
     padding: 0.75rem;
-    color: #000 !important;
-    background: #60abc6;
+    color: #fff;
+    background: #000;
     border: 0;
 }
