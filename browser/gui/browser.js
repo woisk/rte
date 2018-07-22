@@ -5,11 +5,21 @@
         return;
     }
 
+    let origin;
+
+    try {
+        origin = window.opener.origin;
+    } catch (e) {
+        document.body.innerHTML = 'Access denied';
+        setTimeout(window.close, 3000);
+        return;
+    }
+
     function getUrl(url) {
         const a = document.createElement('a');
         a.href = url;
 
-        return a.origin === window.opener.origin ? a.pathname : a.href;
+        return a.origin === origin ? a.pathname : a.href;
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -24,7 +34,7 @@
                     caption: !!caption ? caption.innerHTML : null,
                     src: getUrl(media.src),
                     type: tag === 'img' ? 'image' : tag
-                }, window.opener.origin);
+                }, origin);
             });
         });
     });
