@@ -17,7 +17,7 @@
             .catch(error => {
                 console.error(error.stack);
             });
-        document.querySelector('#save').addEventListener('click', function () {
+        document.querySelector('#save').addEventListener('click', () => {
             console.log(editor.getData());
         });
     });

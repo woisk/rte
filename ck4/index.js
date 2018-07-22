@@ -1,7 +1,7 @@
 'use strict';
 
 (function (document, CKEDITOR) {
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', () => {
         CKEDITOR.plugins.addExternal('detail', '/ck4/detail/');
         CKEDITOR.plugins.addExternal('media', '/ck4/media/');
         CKEDITOR.plugins.addExternal('mediabrowser', '/ck4/mediabrowser/');
@@ -64,7 +64,7 @@
             ]
         });
         console.log(editor);
-        document.getElementById('save').addEventListener('click', function () {
+        document.getElementById('save').addEventListener('click', () => {
             console.log(editor.getData());
         });
     });
