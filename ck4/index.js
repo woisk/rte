@@ -17,20 +17,14 @@
             plugins:
                 'basicstyles,' +
                 'blockquote,' +
-                'dialogadvtab,' +
                 'divarea,' +
-                'elementspath,' +
                 'enterkey,' +
                 'floatingspace,' +
                 'format,' +
                 'link,' +
                 'list,' +
-                'liststyle,' +
                 'magicline,' +
-                'showborders,' +
-                'tab,' +
                 'table,' +
-                'tableselection,' +
                 'toolbar,' +
                 'undo',
             stylesSet: false,
