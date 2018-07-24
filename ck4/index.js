@@ -13,7 +13,6 @@
             format_tags: 'p;h2;h3',
             language: 'de',
             mediabrowserUrl: '/rte/browser/',
-            removeButtons: 'Cut,Copy,Paste,Anchor,Strike,Subscript,Superscript,Indent,Outdent',
             removeDialogTabs: 'link:advanced;link:target',
             plugins:
                 'basicstyles,' +
@@ -24,7 +23,6 @@
                 'enterkey,' +
                 'floatingspace,' +
                 'format,' +
-                'horizontalrule,' +
                 'indentlist,' +
                 'link,' +
                 'list,' +
@@ -45,19 +43,20 @@
                     items: [
                         'Undo',
                         'Redo',
-                        'Format',
                         'Bold',
                         'Italic',
+                        'Underline',
+                        'Strike',
                         'RemoveFormat',
                         'Link',
                         'Unlink',
+                        'Format',
                         'BulletedList',
                         'NumberedList',
                         'Blockquote',
                         'Detail',
                         'Media',
                         'Table',
-                        'HorizontalRule',
                         'ShowBlocks'
                     ]
                 }
