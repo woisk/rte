@@ -28,8 +28,6 @@
                 'list,' +
                 'liststyle,' +
                 'magicline,' +
-                'removeformat,' +
-                'showblocks,' +
                 'showborders,' +
                 'tab,' +
                 'table,' +
@@ -45,9 +43,6 @@
                         'Redo',
                         'Bold',
                         'Italic',
-                        'Underline',
-                        'Strike',
-                        'RemoveFormat',
                         'Link',
                         'Unlink',
                         'Format',
