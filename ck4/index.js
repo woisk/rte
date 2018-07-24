@@ -23,7 +23,6 @@
                 'enterkey,' +
                 'floatingspace,' +
                 'format,' +
-                'indentlist,' +
                 'link,' +
                 'list,' +
                 'liststyle,' +
