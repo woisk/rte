@@ -5,7 +5,7 @@
         CKEDITOR.plugins.addExternal('detail', '/ck4/detail/');
         CKEDITOR.plugins.addExternal('media', '/ck4/media/');
         CKEDITOR.plugins.addExternal('mediabrowser', '/ck4/mediabrowser/');
-        const editor = CKEDITOR.replace(document.getElementById('editor'), {
+        const editor = CKEDITOR.replace(document.getElementById('rte'), {
             contentsCss: '',
             disableNativeSpellChecker: true,
             extraAllowedContent: 'details summary',
