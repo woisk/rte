@@ -42,10 +42,9 @@
                         'BulletedList',
                         'NumberedList',
                         'Blockquote',
-                        'Detail',
                         'Media',
                         'Table',
-                        'ShowBlocks'
+                        'Detail'
                     ]
                 }
             ]
