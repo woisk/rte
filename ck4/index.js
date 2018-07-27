@@ -10,6 +10,7 @@
             disableNativeSpellChecker: true,
             extraAllowedContent: 'details summary',
             extraPlugins: 'detail,media,mediabrowser',
+            fillEmptyBlocks: false,
             format_tags: 'p;h2;h3',
             language: 'de',
             mediabrowserUrl: '/rte/browser/',
