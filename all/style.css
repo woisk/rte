@@ -53,17 +53,17 @@ figcaption {
     font-size: 0.875rem;
 }
 
-.media {
+figure {
     text-align: center;
 }
 
-.media.left {
+figure.left {
     float: left;
     margin-right: 0.75rem;
     text-align: left;
 }
 
-.media.right {
+figure.right {
     float: right;
     margin-left: 0.75rem;
     text-align: left;
@@ -72,12 +72,8 @@ figcaption {
 /**
  * Details
  */
-summary h1,
 summary h2,
-summary h3,
-summary h4,
-summary h5,
-summary h6 {
+summary h3 {
     display: inline-block;
 }
 
