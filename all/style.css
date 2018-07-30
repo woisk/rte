@@ -72,18 +72,27 @@ figure.right {
 /**
  * Quote
  */
-blockquote {
+figure.quote {
     padding: 2.25rem 0.75rem 0.75rem;
     color: #fff;
     background: #4adfcc;
     box-shadow: 0.125rem 0.125rem 0.125rem #e0e0e0;
 }
 
-blockquote::before {
+figure.quote > blockquote {
+    margin-bottom: 0.75rem;
+}
+
+figure.quote > blockquote::before {
     display: block;
     content: '🙷';
     font-family: serif;
     font-size: 6rem;
+}
+
+figure.quote > figcaption {
+    padding-top: 0.75rem;
+    border-top: 0.0625rem solid;
 }
 
 /**
