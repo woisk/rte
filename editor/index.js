@@ -8,6 +8,7 @@ import Editor from '../../editor/src/Editor.js';
         });
         const save = document.getElementById('save');
 
+        console.log(editor);
         save.addEventListener('click', (ev) => {
             ev.preventDefault();
             console.log(editor.getData());
