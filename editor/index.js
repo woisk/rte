@@ -3,8 +3,8 @@ import Editor from '../../editor/src/Editor.js';
 (function (document, Editor) {
     document.addEventListener('DOMContentLoaded', () => {
         const editor = Editor.create(document.getElementById('rte'), {
-            mediabrowser: '/rte/browser',
-            path: '/editor'
+            gui: '/editor/gui',
+            mediabrowser: '/rte/browser'
         });
         const save = document.getElementById('save');
 
