@@ -11,13 +11,13 @@ body {
     background: #fff;
 }
 
-body > * {
-    padding: 0.75rem 0;
-}
-
-h2,
-h3,
-p:not(:last-child) {
+details:not(:last-child),
+figure:not(:last-child),
+h2:not(:last-child),
+h3:not(:last-child),
+ol:not(:last-child),
+p:not(:last-child),
+ul:not(:last-child) {
     margin-bottom: 1.5rem;
 }
 
@@ -35,7 +35,6 @@ h3 {
 
 ol,
 ul {
-    margin: 1.5rem 0;
     padding-left: 2rem;
 }
 
@@ -47,10 +46,6 @@ a {
 /**
  * Figure
  */
-figure {
-    margin-bottom: 1.5rem;
-}
-
 figcaption {
     font-size: 0.875rem;
 }
