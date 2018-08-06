@@ -17,5 +17,5 @@ figure:hover {
 figure:hover audio,
 figure:hover iframe,
 figure:hover video {
-    visibility: hidden;
+    pointer-events: none;
 }
