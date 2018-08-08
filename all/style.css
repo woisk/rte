@@ -11,6 +11,11 @@ body {
     background: #fff;
 }
 
+footer {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+}
+
 details:not(:last-child),
 figure:not(:last-child),
 h2:not(:last-child),
