@@ -3,7 +3,7 @@ import Editor from '../../editor/src/Editor.js';
 (function (document, Editor) {
     document.addEventListener('DOMContentLoaded', () => {
         const editor = Editor.create(document.getElementById('rte'), {
-            gui: '/editor/gui',
+            gui: '../../editor/gui',
             mediabrowser: '../browser'
         });
         const save = document.getElementById('save');
