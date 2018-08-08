@@ -7,8 +7,8 @@
         CKEDITOR.plugins.addExternal('mediabrowser', '/ck4/mediabrowser/');
         const editor = CKEDITOR.replace(document.getElementById('rte'), {
             contentsCss: '',
+            customConfig: '',
             disableNativeSpellChecker: true,
-            extraAllowedContent: 'details summary',
             extraPlugins: 'detail,media,mediabrowser',
             fillEmptyBlocks: false,
             format_tags: 'p;h2;h3',

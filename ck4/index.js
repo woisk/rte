@@ -3,6 +3,7 @@
 (function (document, CKEDITOR) {
     document.addEventListener('DOMContentLoaded', () => {
         const editor = CKEDITOR.replace(document.getElementById('rte'), {
+            contentsCss: '',
             customConfig: '',
             disableNativeSpellChecker: true,
             fillEmptyBlocks: false,
