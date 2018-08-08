@@ -12,6 +12,6 @@ CKEditor5
 - https://akilli.github.io/rte/ck5-classic/
 - https://akilli.github.io/rte/ck5-inline/
 
-Eigenentwicklung
------------------------
+akilli editor
+-------------
 https://akilli.github.io/rte/editor/
