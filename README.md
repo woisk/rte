@@ -1,5 +1,7 @@
 # Rich text editors test setup
 
+Multi-Editor-Test-Setup
+
 CKEditor 4
 --------------
 https://akilli.github.io/rte/ck4/
