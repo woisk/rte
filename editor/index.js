@@ -4,7 +4,7 @@ import Editor from '../../editor/src/Editor.js';
     document.addEventListener('DOMContentLoaded', () => {
         const editor = Editor.create(document.getElementById('rte'), {
             gui: '/editor/gui',
-            mediabrowser: '/rte/browser'
+            mediabrowser: '../browser'
         });
         const save = document.getElementById('save');
 

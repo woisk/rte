@@ -7,7 +7,7 @@
         BalloonEditor
             .create(document.querySelector('#rte'), {
                 media: {
-                    browser: '/rte/browser/'
+                    browser: '../browser/'
                 }
             })
             .then(ed => {
