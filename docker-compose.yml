@@ -14,8 +14,14 @@ services:
       traefik.port: "8080"
       traefik.frontend.rule: "Host: rte.app.loc"
     volumes:
-      - source: ../ck4
-        target: /app/ck4
+      - source: ../ck4/detail
+        target: /app/ckeditor4-detail
+        type: bind
+      - source: ../ck4/media
+        target: /app/ckeditor4-media
+        type: bind
+      - source: ../ck4/mediabrowser
+        target: /app/ckeditor4-mediabrowser
         type: bind
       - source: ../ck5/build-balloon
         target: /app/ckeditor5-build-balloon
