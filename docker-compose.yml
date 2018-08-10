@@ -17,8 +17,12 @@ services:
       - source: ../ck4
         target: /app/ck4
         type: bind
-      - source: ../ck5
-        target: /app/ck5
+      - source: ../ck5/build-balloon
+        target: /app/ckeditor5-build-balloon
+      - source: ../ck5/build-classic
+        target: /app/ckeditor5-build-classic
+      - source: ../ck5/build-inline
+        target: /app/ckeditor5-build-inline
         type: bind
       - source: ../editor
         target: /app/editor
