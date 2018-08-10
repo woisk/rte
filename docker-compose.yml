@@ -25,8 +25,10 @@ services:
         type: bind
       - source: ../ck5/build-balloon
         target: /app/ckeditor5-build-balloon
+        type: bind
       - source: ../ck5/build-classic
         target: /app/ckeditor5-build-classic
+        type: bind
       - source: ../ck5/build-inline
         target: /app/ckeditor5-build-inline
         type: bind
