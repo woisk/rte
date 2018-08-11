@@ -15,7 +15,7 @@
                 console.log(ed);
             })
             .catch(error => {
-                console.error(error.stack);
+                console.error(error);
             });
         document.querySelector('#save').addEventListener('click', () => {
             console.log(editor.getData());
