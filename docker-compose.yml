@@ -32,6 +32,12 @@ services:
       - source: ../ck5/build-inline
         target: /app/ckeditor5-build-inline
         type: bind
+      - source: ../ck5/details
+        target: /app/ckeditor5-details
+        type: bind
+      - source: ../ck5/media
+        target: /app/ckeditor5-media
+        type: bind
       - source: ../editor
         target: /app/editor
         type: bind
