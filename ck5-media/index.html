@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+        <title>CKEditor</title>
+        <link rel="stylesheet" href="https://akilli.github.io/cms/gui/base.css" />
+        <link rel="stylesheet" href="https://akilli.github.io/cms/gui/details.css" />
+        <link rel="stylesheet" href="../all/style.css" />
+        <script src="https://akilli.github.io/cms/gui/details.js"></script>
+        <script src="../../ckeditor5-media/dev/ckeditor.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="rte">
+            <figure class="audio">
+                <audio src="../browser/media/sample.mp3" controls="controls"></audio>
+                <figcaption>Sample</figcaption>
+            </figure>
+            <figure class="iframe">
+                <iframe src="../browser/media/sample.html"></iframe>
+                <figcaption>Sample</figcaption>
+            </figure>
+            <figure class="image">
+                <img src="../browser/media/sample.jpg" alt="Sample" />
+                <figcaption>Sample</figcaption>
+            </figure>
+            <figure class="video">
+                <video src="../browser/media/sample.mp4" controls="controls"></video>
+                <figcaption>Sample</figcaption>
+            </figure>
+        </div>
+        <button id="save">Log editor data to console</button>
+    </body>
+</html>
