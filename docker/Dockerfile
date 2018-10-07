@@ -11,12 +11,9 @@ RUN npm install -g \
         /root/.config \
         /root/.npm
 
+COPY s6/ /etc/s6/
+
 #
 # Ports
 #
 EXPOSE 8080
-
-#
-# Command
-#
-CMD ["su-exec", "app", "http-server", "/app"]

@@ -6,7 +6,7 @@ networks:
 services:
   rte:
     image: rte
-    build: .
+    build: ./docker
     container_name: rte
     restart: unless-stopped
     labels:
